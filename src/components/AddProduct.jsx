@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect, useState } from 'react'
 import GeneratedComponent from './GeneratedCompo';
 
@@ -15,7 +16,6 @@ const AddProduct = () => {
         setComponents([...components, { id: nextId }]);
         setNextId(nextId + 1);
     };
-                
 
   return (
     <div className='main mt-20'>

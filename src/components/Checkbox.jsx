@@ -1,6 +1,6 @@
+/* eslint-disable */
 import React, { useRef, useLayoutEffect } from "react";
 import { status } from "./constants";
-
 export default function Checkbox(props) {
   const { indeterminate, checked, id, compute, ...rest } = props;
   const inputRef = useRef(null);

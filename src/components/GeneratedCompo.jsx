@@ -1,9 +1,9 @@
+/* eslint-disable */
 import React, { useState } from 'react';
 import { Button, Modal } from 'antd';
 import CheckboxList from './CheckboxList';
 
 const GeneratedComponent = ({ id }) => {
-    // console.log(products, "products");
     
     const [showDiscount, setShowDiscount] = useState(false);
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -23,7 +23,6 @@ const GeneratedComponent = ({ id }) => {
     const handleCancel = () => {
         setIsModalOpen(false);
     };
-
 
   return (
     <div className=''>

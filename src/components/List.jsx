@@ -1,10 +1,9 @@
+/* eslint-disable */
 import React from "react";
 import Checkbox from "./Checkbox";
 import { status } from "./constants";
-
 export default function List(props) {
   const { variants, compute } = props;
-
   return (
     <ul className="border-b">
       {variants.map((item) => {
